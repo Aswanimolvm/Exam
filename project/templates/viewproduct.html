@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    {{data.product}}
+
+
+    <a href="{% url 'deleteproduct' id=product.id %}"><button>delete product</button></a>
+    {% comment %} <a href="{% url 'delete_blog'%}"><button>Delete blog</button></a> {% endcomment %}
+
+</body>
+</html>
